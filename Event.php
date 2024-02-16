@@ -18,7 +18,7 @@ use Eccube\Entity\BaseInfo;
 use Eccube\Event\TemplateEvent;
 use Eccube\Repository\BaseInfoRepository;
 use Plugin\TwoFactorAuthCustomer42\Service\CustomerTwoFactorAuthService;
-use Symfony\Component\DependencyInjection\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Twig\Environment;
 
